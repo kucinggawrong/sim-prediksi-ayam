@@ -1,0 +1,20 @@
+{
+  "data_path": "dataset_bersih_lstm_final.csv",
+  "window_size": 14,
+  "features": [
+    "Harga_Ayam",
+    "Harga_Jagung_Pipilan_Kg",
+    "Harga_Ayam_Lag1",
+    "Harga_Ayam_Lag7",
+    "Harga_Ayam_RollMean7",
+    "Is_Hari_Raya",
+    "Efek_Lebaran"
+  ],
+  "target_engineered": "Return",
+  "target_asli": "Harga_Ayam",
+  "catatan_rekonstruksi": "harga_t = harga_aktual_(t-1) * (1 + return_prediksi_t)",
+  "train_frac": 0.7,
+  "val_frac": 0.85,
+  "n_total_rows": 2024,
+  "tanggal_data_terakhir": "2026-07-17"
+}

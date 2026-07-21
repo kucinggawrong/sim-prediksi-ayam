@@ -1,0 +1,192 @@
+{
+  "window": 14,
+  "results": [
+    {
+      "units1": 32,
+      "units2": 16,
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "batch_size": 16,
+      "mae": 197.06291239336133,
+      "rmse": 454.2605471746989,
+      "mape": 0.49192285386643375,
+      "n_samples": 304
+    },
+    {
+      "units1": 32,
+      "units2": 16,
+      "dropout": 0.3,
+      "learning_rate": 0.001,
+      "batch_size": 16,
+      "mae": 171.12167213974814,
+      "rmse": 456.31150237577924,
+      "mape": 0.42818521362097084,
+      "n_samples": 304
+    },
+    {
+      "units1": 32,
+      "units2": 16,
+      "dropout": 0.3,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "mae": 173.82909107678816,
+      "rmse": 441.30699624041904,
+      "mape": 0.43486890078969587,
+      "n_samples": 304
+    },
+    {
+      "units1": 32,
+      "units2": 32,
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "batch_size": 16,
+      "mae": 189.86830830279933,
+      "rmse": 447.3803786891864,
+      "mape": 0.47507017040702565,
+      "n_samples": 304
+    },
+    {
+      "units1": 32,
+      "units2": 32,
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "mae": 176.95983927030312,
+      "rmse": 450.13273179105147,
+      "mape": 0.4426337724651673,
+      "n_samples": 304
+    },
+    {
+      "units1": 32,
+      "units2": 32,
+      "dropout": 0.2,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "mae": 172.13925711751767,
+      "rmse": 451.98581156277646,
+      "mape": 0.4310920485353969,
+      "n_samples": 304
+    },
+    {
+      "units1": 32,
+      "units2": 32,
+      "dropout": 0.3,
+      "learning_rate": 0.001,
+      "batch_size": 16,
+      "mae": 192.59027660383205,
+      "rmse": 452.2482010346352,
+      "mape": 0.4811724742251685,
+      "n_samples": 304
+    },
+    {
+      "units1": 32,
+      "units2": 32,
+      "dropout": 0.3,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "mae": 167.48537271705112,
+      "rmse": 453.99969968019946,
+      "mape": 0.4192044898322538,
+      "n_samples": 304
+    },
+    {
+      "units1": 32,
+      "units2": 32,
+      "dropout": 0.3,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "mae": 177.7028982986353,
+      "rmse": 449.65521822748474,
+      "mape": 0.4447642087192204,
+      "n_samples": 304
+    },
+    {
+      "units1": 64,
+      "units2": 16,
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "batch_size": 16,
+      "mae": 186.04552779993728,
+      "rmse": 448.1182435771968,
+      "mape": 0.4663721404953887,
+      "n_samples": 304
+    },
+    {
+      "units1": 64,
+      "units2": 16,
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "mae": 177.25413762091807,
+      "rmse": 453.1804874115018,
+      "mape": 0.4427617663243686,
+      "n_samples": 304
+    },
+    {
+      "units1": 64,
+      "units2": 16,
+      "dropout": 0.3,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "mae": 171.73337783291936,
+      "rmse": 454.6642552661159,
+      "mape": 0.4301290792188922,
+      "n_samples": 304
+    },
+    {
+      "units1": 64,
+      "units2": 32,
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "batch_size": 16,
+      "mae": 178.3829783822753,
+      "rmse": 449.705160723348,
+      "mape": 0.4465470393206081,
+      "n_samples": 304
+    },
+    {
+      "units1": 64,
+      "units2": 32,
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "mae": 176.42934128132305,
+      "rmse": 449.16015182834843,
+      "mape": 0.4410043355721074,
+      "n_samples": 304
+    },
+    {
+      "units1": 64,
+      "units2": 32,
+      "dropout": 0.3,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "mae": 174.45388725184296,
+      "rmse": 448.22677579015294,
+      "mape": 0.4362759100500797,
+      "n_samples": 304
+    },
+    {
+      "units1": 64,
+      "units2": 32,
+      "dropout": 0.3,
+      "learning_rate": 0.0005,
+      "batch_size": 16,
+      "mae": 165.47836159895124,
+      "rmse": 454.276465407272,
+      "mape": 0.4140745845358647,
+      "n_samples": 304
+    }
+  ],
+  "best": {
+    "units1": 32,
+    "units2": 16,
+    "dropout": 0.3,
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "mae": 173.82909107678816,
+    "rmse": 441.30699624041904,
+    "mape": 0.43486890078969587,
+    "n_samples": 304
+  }
+}
